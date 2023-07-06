@@ -32,19 +32,19 @@ const AddFlatForm = () => {
               <label htmlFor="january">January</label>
             </div>
             <div className="checkbox">
-              <input type="checkbox" id="february" name="february" />
+              <input type="checkbox" id="february" name="february" checked />
               <label htmlFor="february">February</label>
             </div>
             <div className="checkbox">
-              <input type="checkbox" id="february" name="february" />
+              <input type="checkbox" id="february" name="february" checked />
               <label htmlFor="february">March</label>
             </div>
             <div className="checkbox">
-              <input type="checkbox" id="february" name="february" />
+              <input type="checkbox" id="february" name="february" checked/>
               <label htmlFor="february">April</label>
             </div>
             <div className="checkbox">
-              <input type="checkbox" id="february" name="february" />
+              <input type="checkbox" id="february" name="february" checked />
               <label htmlFor="february">May</label>
             </div>
             <div className="checkbox">
