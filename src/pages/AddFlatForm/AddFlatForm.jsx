@@ -1,9 +1,10 @@
 import "./AddFlatForm.css";
 const AddFlatForm = () => {
   return (
+    <div style={{width:"100%", height:"100vh", display:"flex" , alignItems:"center", justifyContent:"center"}}>
     <div className="container-flatform">
       <h1 className="title">Owner Information Form</h1>
-      <form className="form">
+      <form className="form-ok">
         <div className="form-group">
           <label htmlFor="blockNumber">Block Number</label>
           <input type="text" id="blockNumber" name="blockNumber" />
@@ -20,7 +21,7 @@ const AddFlatForm = () => {
             type="number"
             id="maintenancePayment"
             name="maintenancePayment"
-            step="0.01"
+            value={2000}
           />
         </div>
         <div className="form-group">
@@ -34,6 +35,26 @@ const AddFlatForm = () => {
               <input type="checkbox" id="february" name="february" />
               <label htmlFor="february">February</label>
             </div>
+            <div className="checkbox">
+              <input type="checkbox" id="february" name="february" />
+              <label htmlFor="february">March</label>
+            </div>
+            <div className="checkbox">
+              <input type="checkbox" id="february" name="february" />
+              <label htmlFor="february">April</label>
+            </div>
+            <div className="checkbox">
+              <input type="checkbox" id="february" name="february" />
+              <label htmlFor="february">May</label>
+            </div>
+            <div className="checkbox">
+              <input type="checkbox" id="february" name="february" />
+              <label htmlFor="february">June</label>
+            </div>
+            <div className="checkbox">
+              <input type="checkbox" id="february" name="february" />
+              <label htmlFor="february">July</label>
+            </div>
             {/* ... Add checkboxes for other months */}
           </div>
         </div>
@@ -45,8 +66,9 @@ const AddFlatForm = () => {
           <label htmlFor="currentLocation">Current Location</label>
           <input type="text" id="currentLocation" name="currentLocation" />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit-add">Submit</button>
       </form>
+    </div>
     </div>
   );
 };
