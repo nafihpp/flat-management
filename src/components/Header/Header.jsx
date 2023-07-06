@@ -19,11 +19,11 @@ export const Header = () => {
                     <Link to="/" className="link middle-link">
                         Home
                     </Link>
-                    <Link to="/menu" className="link middle-link">
+                    <Link to="/flatform" className="link middle-link">
                         Admin
                     </Link>
                     <Link
-                        to="/favourites"
+                        to="/homeowner"
                         className="link favourite middle-link"
                     >
                         Home Owner
@@ -53,7 +53,7 @@ export const Header = () => {
                         </div>
                         <div>
                             <Link
-                                to="/menu"
+                                to="/homeowner"
                                 className="link hamburger-link"
                                 onClick={toggleMenu}
                             >
@@ -62,7 +62,7 @@ export const Header = () => {
                         </div>
                         <div>
                             <Link
-                                to="/favourites"
+                                to="/flatform"
                                 className="link hamburger-link "
                                 onClick={toggleMenu}
                             >
